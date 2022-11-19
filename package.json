@@ -3,17 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": ">=4.0.0"
+  },
   "scripts": {
     "test": "vitest"
   },
+  "type": "module",
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@antfu/eslint-config": "^0.27.0",
-    "eslint": "8.21.0",
-    "pnpm": "^7.8.0",
-    "typescript": "^4.8.2",
+    "eslint": "^7.16.0",
+    "eslint-plugin-import": "^2.22.1",
+    "esm": "^3.2.25",
     "vite": "^3.1.2",
     "vitest": "^0.23.4"
   }

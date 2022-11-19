@@ -1,5 +1,5 @@
-import { describe, expect, test } from 'vitest'
-import { increment } from './app'
+import {describe, expect, test} from 'vitest'
+import {increment} from './app'
 
 describe('increment', () => {
   test('increments the integer by 1', () => {
